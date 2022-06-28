@@ -10,6 +10,7 @@ h1 {
     text-align: center;
     margin-top: 10vh;
     color: red;
+    font-family: 'Delius Unicase', cursive;
     text-shadow: 4px 2px 5px yellow;
 }
 
