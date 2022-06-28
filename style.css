@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+h1 {
+    font-size: 2.5rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 10vh;
+    color: red;
+    text-shadow: 4px 2px 5px yellow;
+}
+
+.para {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+p {
+    color: rgb(0, 42, 228);
+    font-size: 1.5rem;
+    text-align: center;
+    width: 65vw;
+}
+
+.image {
+    width: 30vw;
+    height: auto;
+    /* float: right; */
+    margin: 10px 20px;
+}
+
+@media screen and (max-width:800px) {
+    div .image {
+        width: 80vw;
+        padding: 0 20px;
+        justify-items: center;
+        height: auto;
+        box-sizing: border-box;
+        
+    }
+    p {
+    
+        width: 90vw;
+        background-color: yellow ;width: 100%;
+        margin: 0 20px;
+        color: black;
+        font-weight: 400;
+    }
+}
